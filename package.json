@@ -1,0 +1,47 @@
+{
+  "name": "monwrap",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=7.10.1"
+  },
+  "description": "",
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "wrapper",
+    "collection"
+  ],
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:watch": "npm run test -- --watch",
+    "cover": "npm test -- --coverage"
+  },
+  "dependencies": {
+    "mongodb": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.1.0",
+    "eslint-plugin-jsdoc": "^3.9.1",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^25.0.0",
+    "prettier": "^1.15.3"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "!**/__tests__/**"
+  ],
+  "homepage": "https://github.com/mick-whats/mongo.w",
+  "bugs": "https://github.com/mick-whats/mongo.w/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mick-whats/mongo.w.git"
+  },
+  "license": "MIT",
+  "author": "mick-whats"
+}
