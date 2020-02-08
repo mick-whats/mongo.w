@@ -12,6 +12,8 @@ dist: trusty
 before_script:
   - sleep 15
   - mongo admin --eval 'db.createUser({user:"mick",pwd:"testPass",roles:[{ role:"readWrite", db:"test" }]});'
+  - sleep 15
+  - timedatectl set-timezone Asia/Tokyo
 services:
   - mongodb
 addons:
