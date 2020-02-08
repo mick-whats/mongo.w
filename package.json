@@ -17,6 +17,7 @@
     "cover": "npm test -- --coverage"
   },
   "dependencies": {
+    "dayjs": "^1.8.19",
     "mongodb": "^3.3.3"
   },
   "devDependencies": {
